@@ -1,7 +1,7 @@
-import * as THREE from './three.js-master/build/three.module.js'
-import { OrbitControls } from './three.js-master/examples/jsm/controls/OrbitControls.js';
-import { OBJLoader } from './three.js-master/examples/jsm/loaders/OBJLoader.js';
-import { MTLLoader } from './three.js-master/examples/jsm/loaders/MTLLoader.js';
+import * as THREE from './build/three.module.js'
+import { OrbitControls } from './OrbitControls.js';
+import { OBJLoader } from './OBJLoader.js';
+import { MTLLoader } from './MTLLoader.js';
 var PoE;
 const mtlLoader = new MTLLoader();
         mtlLoader.load('./data/Poe.mtl', (mtl) => {
