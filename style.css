@@ -1,4 +1,11 @@
-.webgl{
-    width: 100vw;
-    height:50vh;
+#webgl *{
+    min-width: 100vw;
+    min-height:70vh;
+    /* border: solid black 50px; */
+}
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    background-color: grey;
 }

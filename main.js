@@ -1,7 +1,12 @@
-import * as THREE from './build/three.module.js'
-import { OrbitControls } from './OrbitControls.js';
-import { OBJLoader } from './OBJLoader.js';
-import { MTLLoader } from './MTLLoader.js';
+import * as THREE from 'https://unpkg.com/three@0.119.0/build/three.module.js';
+import { OrbitControls } from 'https://unpkg.com/three@0.119.0/examples/jsm/controls/OrbitControls.js';
+import { OBJLoader } from 'https://unpkg.com/three@0.119.0/examples/jsm/loaders/OBJLoader.js';
+import { MTLLoader } from 'https://unpkg.com/three@0.119.0/examples/jsm/loaders/MTLLoader.js';
+// import * as dat from './node_modules/dat.gui/build/dat.gui.module.js';
+
+// import { OrbitControls } from './OrbitControls.js';
+// import { OBJLoader } from './OBJLoader.js';
+// import { MTLLoader } from './MTLLoader.js';
 var PoE;
 const mtlLoader = new MTLLoader();
         mtlLoader.load('./data/Poe.mtl', (mtl) => {
